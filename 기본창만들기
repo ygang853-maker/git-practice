@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기본 메모장</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>기본 메모장</h1>
+        <div class="toolbar">
+            <button id="new-note">새 메모</button>
+            <button id="download-note">파일로 저장</button>
+        </div>
+        <textarea id="note-area" placeholder="여기에 내용을 입력하세요..."></textarea>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
